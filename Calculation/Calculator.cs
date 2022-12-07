@@ -9,10 +9,11 @@ namespace Calculation
 {
     internal class Calculator
     {
-        public void AdditionofNumbers(int firstNumber, int secondNumber)
+        public int AdditionofNumbers(int firstNumber, int secondNumber)
         {
             int result = firstNumber + secondNumber;
-            Console.WriteLine("sum:"+result);
+            Console.WriteLine("sum of 2 numbers {0}",result);
+            return result;
         }
         
     }
